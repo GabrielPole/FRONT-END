@@ -1,141 +1,48 @@
-header {
-    background: grey;
-    padding: 20px 0;
+#banner {
+	width:100%;
 }
 
-.caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-    /*centralizar um conteudo*/
+.principal{
+	background: #CCCCCC;
+	padding: 30px;
 }
 
-nav {
-    position: absolute;
-    top: 110px;
-    right: 0;
+.titulo-principal {
+	padding-left: 20px;
 }
 
-nav li {
-    display: inline;
-    margin: 0 0 0 15px;
+.titulo-centralizado {
+	text-align: center
 }
 
-nav a {
-    text-transform: uppercase;
-    /*trasformação do texto para deixar tudo em maisculo */
-    color: #000000;
-    font-weight: bold;
-    /*peso em negrito*/
-    font-size: 22px;
-    text-decoration: none/*tirou decoração*/
+p {
+	text-align: center;
 }
 
-nav a:hover {
-    color: #c78c19;
-    text-decoration: underline;
+#missao {
+	font-size: 20px
 }
 
-.produtos {
-    width: 940px;
-    /*largura fixa*/
-    margin: 0 auto;
-    /*espaçameto de 0 para cima e baixo e auto matico dos lados */
-    padding: 50px 0/* espaçamento interno*/
+em strong {
+	color: #FF0000;
 }
 
-.produtos li:hover {
-    border-color: #c78c19;
+.itens {
+	font-style: italic
 }
 
-
-/*quando o elemento está sendo clicado pelo usuario */
-
-.produtos li:active {
-    border-color: green;
+.beneficios {
+	background: #FFFFFF;
+	padding: 20px;
 }
 
-
-/*Quando os produtos li tiver com o mouse em cima quero alterar o h2*/
-
-.produtos li:hover h2 {
-    font-size: 34px;
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
 }
 
-.produtos li {
-    display: inline-block;
-    /* O tamanho pode ser ajustado, tanto na largura, quanto na altura.*/
-    text-align: center;
-    width: 30%;
-    /* largura */
-    vertical-align: top;
-    /*alianhando pela linha de cima pois o inline-block alinha por baixo */
-    /*background-color: #cccccc; */
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    /* definindo sempre como 30px */
-    /*3 configuração que monta uma borda*/
-    border-color: #000000;
-    border-width: 2px;
-    border-style: solid;
-    /*simplificando --> border: 2px solid  #000000*/
-    border-radius: 10px;
-}
-
-.produtos h2 {
-    font-size: 30px;
-    /* tamanho de fonte*/
-    font-weight: bold/*peso da fonte em negrito */
-}
-
-.descrição {
-    font-size: 18px;
-}
-
-.preço {
-    font-size: 30px;
-    font-weight: bold;
-    margin: 10px 0 0;
-}
-
-footer {
-    text-align: center;
-    background: url("muro.png");
-    /*o css copia a imagem pequena varias vezes para pode forma uma maior, pois assim nao consome a banda do usuario*/
-}
-
-.Copyright {
-    font-size: 13px;
-    color: white;
-    padding: 20px 0;
-}
-
-main {
-    width: 940px;
-    /*largura*/
-    margin: 0 auto;
-}
-
-form {
-    margin: 40px 0;
-}
-
-form label,
-form legend {
-    display: block;
-    font-size: 20px;
-    margin: 10px 0 10px;
-}
-
-.input-padrao {
-    display: block;
-    margin: 0 0 20px;
-    /* largura interna*/
-    padding: 10px 25px;
-    width: 50%;
-}
-
-.checkbox {
-    margin: 20px 0;
+.imagembeneficios {
+	width: 50%;
 }
