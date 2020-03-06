@@ -65,8 +65,44 @@
 
                 <label><input type="checkbox" class="checkbox" checked> Gostaria de receber novidades por email </label>
                 <!--checked é usada para que um campo já carregue marcado, para facilitar a vida do usuário ou até para sugerir que aquele campo seja preenchido.-->
-                <input type="submit" value="ENVIAR" checked>
+                <input type="submit" value="ENVIAR" checked class="botao">
         </form>
+
+        <table>
+
+            <thead>
+                <!--Utilizamos a tag <tr> para marcar uma linha de uma tabela.-->
+                <tr>
+                    <th colspan="2">Dia e Horario</th>
+                    <!--colspan é usado para mesclar-->
+                </tr>
+            </thead>
+            <!--As tags <thead>, <tbody> e <tfoot> ajudam a deixar o conteúdo da tabela mais bem dividido e mais semântico.-->
+            <tbody>
+                <tr>
+                    <!--Utilizamos a tag <td> para marcar uma coluna de uma tabela.-->
+                    <td>Segunda</td>
+                    <td> 8h - 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td> 8h - 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td> 8h - 20h</td>
+                </tr>
+            </tbody>
+            <!--
+                A tag table, que representa a tabela
+                A tag tr, que representa a linha da tabela
+                A tag td, que representa a célula da tabela
+                A tag thead, que representa o cabeçalho da tabela
+                A tag tbody, que representa o corpo da tabela
+                A tag th, que representa a célula do cabeçalho da tabela
+                A tag tfoot, que representa o rodapé da tabela
+            -->
+        </table>
     </main>
 
     <footer>

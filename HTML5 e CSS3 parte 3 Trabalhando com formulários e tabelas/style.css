@@ -139,3 +139,39 @@ form legend {
 .checkbox {
     margin: 20px 0;
 }
+
+.botao {
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    /*Utilizamos a propriedade transition para prover uma transição visual de um elemento.*/
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: rgb(255, 102, 0);
+    /*transform: scale() para aumentar um elemento proporcionalmente.*/
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 20px;
+}
+
+thead {
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
