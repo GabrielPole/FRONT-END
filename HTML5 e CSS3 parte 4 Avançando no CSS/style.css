@@ -80,7 +80,7 @@ nav a:hover {
 
 footer {
     text-align: center;
-    background: url("bg.png");
+    background: url("bg.jpg");
     padding: 40px 0;
 }
 
@@ -159,16 +159,4 @@ th {
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
-}
-
-.principal p {
-    margin: 2em;
-}
-
-.principal strong {
-    font-weight: bold;
-}
-
-.principal em {
-    font-style: italic;
 }
