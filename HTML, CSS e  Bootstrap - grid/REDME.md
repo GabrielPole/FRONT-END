@@ -1,0 +1,1 @@
+justify-content-start alinha para a    esquerda

@@ -1,0 +1,19 @@
+body{
+    background-color: #212D40;
+}
+h2{
+    color: #f0f3f5;
+}
+.bg-row{
+    background-color: #5f758E;
+}
+
+.bg-col{
+    background-color: #d17373;
+    border: solid 1px #212D40;
+    
+}
+
+.row-size{
+    height: 200px;
+}
